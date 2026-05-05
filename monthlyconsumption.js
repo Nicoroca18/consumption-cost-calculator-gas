@@ -7,7 +7,7 @@
 function calculateMonthlyConsumption() {
   try {
     const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-    const sheet = spreadsheet.getActiveSheet();
+    const sheet = spreadsheet.getActiveSheet(); 
     const ui = SpreadsheetApp.getUi();
 
     ui.alert('Starting monthly consumption calculation');
